@@ -14,9 +14,7 @@ Download and extract code from https://github.com/n7ihq/hamlibserver/archive/mas
 python3 hamlibserver.py &  
 rigctl —model=2 —rig-file=localhost:4575  
 Commands:  
-## FLDIGI Setup
-## WSJT-X Setup
-## JS8Call Setup
+## Digital Modes Software Setup
 ## References
 James Ahlstrom, "Hamlib, IPC and Software Defined Radio"  
 http://www.james.ahlstrom.name/hamlib.html  
