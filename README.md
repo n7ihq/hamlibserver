@@ -7,7 +7,7 @@ Raspberry Pi Configuration > Interfaces > I2C: Enable
 sudo apt install libhamlib2 libhamlib-utils python3-pip  
 pip3 install RPI.GPIO  
 pip3 install adafruit-blinka  
-pip3 install adafruit-circuitpython-si5351 
+pip3 install adafruit-circuitpython-si5351  
 Download and extract code from https://github.com/n7ihq/hamlibserver/archive/master.zip  
 
 ## Testing
