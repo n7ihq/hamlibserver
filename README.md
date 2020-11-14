@@ -13,18 +13,19 @@ Download and extract code from https://github.com/n7ihq/hamlibserver/archive/mas
 
 ## Testing
 python3 hamlibserver.py &  
-rigctl —model=2 —rig-file=localhost:4575  
+rigctl —-model=2 --rig-file=localhost:4575  
 Commands:  
 
-## Digital Modes Software Setup
+## Digital Modes Software Settings
 ### FLDIGI
 Configure > Rig control > Rig > Hamlib >  
 Rig: Hamlib NET rigctl  
 Device: localhost:4575
 
-### WSJT-X
+### WSJT-X, JS8Call
 File > Settings > Radio >  
-Rig: Hamlib NET rigctl
+Rig: Hamlib NET rigctl  
+Cat Control Network Server: localhost:4575
 
 ## References
 James Ahlstrom, "Hamlib, IPC and Software Defined Radio"  
