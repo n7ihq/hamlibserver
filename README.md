@@ -1,6 +1,7 @@
 # hamlibserver
 ## Description
 Hamlib NET rigctl TCP server compatible with radio control applications. Implements rigctl commands. Adapted from hamlibserver.py by James Ahlstrom. Si5351 driver adapted from Hans Summers Si5351 demo code, translated from C to Python. Requires Adafruit CircuitPython and Si5351 libraries.
+
 ## Raspberry Pi Installation
 Connect Raspberry Pi GPIO connector SCL, SDA, and GND pins to Si5351 board  
 Raspberry Pi Configuration > Interfaces > I2C: Enable  
@@ -14,7 +15,17 @@ Download and extract code from https://github.com/n7ihq/hamlibserver/archive/mas
 python3 hamlibserver.py &  
 rigctl —model=2 —rig-file=localhost:4575  
 Commands:  
+
 ## Digital Modes Software Setup
+### FLDIGI
+Configure > Rig control > Rig > Hamlib >  
+Rig: Hamlib NET rigctl  
+Device: localhost:4575
+
+### WSJT-X
+File > Settings > Radio >  
+Rig: Hamlib NET rigctl
+
 ## References
 James Ahlstrom, "Hamlib, IPC and Software Defined Radio"  
 http://www.james.ahlstrom.name/hamlib.html  
