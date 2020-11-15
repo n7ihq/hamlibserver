@@ -13,7 +13,7 @@ Download and extract code from https://github.com/n7ihq/hamlibserver/archive/mas
 
 ## Testing
 python3 hamlibserver.py &  
-rigctl —m 2 -r 127.0.0.1:4575  
+rigctl -m 2 -r 127.0.0.1:4575  
 Commands:  
 
 ## Digital Modes Software Settings
@@ -21,7 +21,7 @@ Commands:
 Configure > Rig control > Rig > Hamlib >  
 Use Hamlib: check
 Rig: Hamlib NET rigctl  
-Device: 127.0.0.1:4575
+Device: 127.0.0.1:4575  
 Retry Interval (mSec): 100
 
 ### WSJT-X, JS8Call
