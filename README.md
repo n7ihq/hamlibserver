@@ -14,7 +14,7 @@ Download and extract code from https://github.com/n7ihq/hamlibserver/archive/mas
 ## Testing
 python3 hamlibserver.py &  
 rigctl -m 2 -r 127.0.0.1:4575  
-**Commands:** 
+###Commands
 F, set_freq ’Frequency': Set ’Frequency’, in Hz  
 f, get_freq: Get ’Frequency’, in Hz  
 m, get_mode: Get ’Mode’ ’Passband    
