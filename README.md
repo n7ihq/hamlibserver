@@ -19,7 +19,7 @@ Commands:
 ## Digital Modes Software Settings
 ### FLDIGI
 Configure > Rig control > Rig > Hamlib >  
-Use Hamlib: check
+Use Hamlib: check  
 Rig: Hamlib NET rigctl  
 Device: 127.0.0.1:4575  
 Retry Interval (mSec): 100
