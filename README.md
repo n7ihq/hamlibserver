@@ -19,7 +19,7 @@ F, set_freq ’Frequency': Set ’Frequency’, in Hz
 f, get_freq: Get ’Frequency’, in Hz  
 m, get_mode: Get ’Mode’ ’Passband    
 v, get_vfo: Get current ’VFO’  
-q, exit rigctl: Exit rigctl in interactive mode
+q, exit: Exit rigctl in interactive mode
 
 ## Digital Modes Software Settings
 ### FLDIGI
