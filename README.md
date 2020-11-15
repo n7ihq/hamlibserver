@@ -13,19 +13,21 @@ Download and extract code from https://github.com/n7ihq/hamlibserver/archive/mas
 
 ## Testing
 python3 hamlibserver.py &  
-rigctl —-model=2 --rig-file=localhost:4575  
+rigctl —m 2 -r 127.0.0.1:4575  
 Commands:  
 
 ## Digital Modes Software Settings
 ### FLDIGI
 Configure > Rig control > Rig > Hamlib >  
+Use Hamlib: check
 Rig: Hamlib NET rigctl  
-Device: localhost:4575
+Device: 127.0.0.1:4575
+Retry Interval (mSec): 100
 
 ### WSJT-X, JS8Call
 File > Settings > Radio >  
 Rig: Hamlib NET rigctl  
-Cat Control Network Server: localhost:4575
+Cat Control Network Server: 127.0.0.1:4575
 
 ## References
 James Ahlstrom, "Hamlib, IPC and Software Defined Radio"  
