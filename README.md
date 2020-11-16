@@ -3,6 +3,7 @@
 Hamlib NET rigctl TCP server compatible with radio control applications. Implements Hamlib rigctl commands. Adapted from hamlibserver.py by James Ahlstrom. Si5351 driver adapted from Hans Summers Si5351 demo code, translated from C to Python. Requires Adafruit CircuitPython and Si5351 libraries.
 
 ## Raspberry Pi Installation
+Disconnect existing Si5351 controller  
 Connect Raspberry Pi GPIO connector SCL, SDA, and GND pins to Si5351 board  
 Raspberry Pi Configuration > Interfaces > I2C: Enable  
 sudo apt install libhamlib2 libhamlib-utils python3-pip  
@@ -33,6 +34,9 @@ Retry Interval (mSec): 100
 File > Settings > Radio >  
 Rig: Hamlib NET rigctl  
 Cat Control Network Server: 127.0.0.1:4575
+
+## To Do
+Add Si5351 frequency initialization
 
 ## References
 James Ahlstrom, "Hamlib, IPC and Software Defined Radio"  
