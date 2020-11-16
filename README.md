@@ -1,6 +1,6 @@
 # hamlibserver
 ## Description
-Hamlib NET rigctl TCP server compatible with radio control applications. Implements rigctl commands. Adapted from hamlibserver.py by James Ahlstrom. Si5351 driver adapted from Hans Summers Si5351 demo code, translated from C to Python. Requires Adafruit CircuitPython and Si5351 libraries.
+Hamlib NET rigctl TCP server compatible with radio control applications. Implements Hamlib rigctl commands. Adapted from hamlibserver.py by James Ahlstrom. Si5351 driver adapted from Hans Summers Si5351 demo code, translated from C to Python. Requires Adafruit CircuitPython and Si5351 libraries.
 
 ## Raspberry Pi Installation
 Connect Raspberry Pi GPIO connector SCL, SDA, and GND pins to Si5351 board  
