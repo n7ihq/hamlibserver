@@ -36,7 +36,7 @@ Rig: Hamlib NET rigctl
 Cat Control Network Server: 127.0.0.1:4575
 
 ## To Do
-Add Si5351 frequency initialization
+Add Si5351 calibration dialog
 
 ## References
 James Ahlstrom, "Hamlib, IPC and Software Defined Radio"  
