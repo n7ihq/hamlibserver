@@ -206,11 +206,13 @@ class App:
         self.hamlib_socket.settimeout(0.0)
         self.hamlib_socket.listen(0)
         # This is the state of the "hardware"
-        self.freq = 7000000
+        self.freq = 7074000
         self.mode = 'CW'
         self.bandwidth = 2400
         self.vfo = "VFO"
         self.ptt = 0
+        # Initialize Si5351 frequency
+        si5351.setFrequency(4 * self.freq)
 
     def Run(self):
         while True:

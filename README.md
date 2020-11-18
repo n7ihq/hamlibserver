@@ -18,7 +18,7 @@ rigctl -m 2 -r 127.0.0.1:4575
 ### Commands
 F, set_freq ’Frequency': Set ’Frequency’, in Hz  
 f, get_freq: Get ’Frequency’, in Hz  
-m, get_mode: Get ’Mode’ ’Passband    
+m, get_mode: Get ’Mode’ ’Passband'    
 v, get_vfo: Get current ’VFO’  
 q, exit: Exit rigctl in interactive mode
 
@@ -36,7 +36,7 @@ Rig: Hamlib NET rigctl
 Cat Control Network Server: 127.0.0.1:4575
 
 ## To Do
-Add Si5351 frequency initialization
+Add Si5351 calibration dialog
 
 ## References
 James Ahlstrom, "Hamlib, IPC and Software Defined Radio"  
